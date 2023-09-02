@@ -1,0 +1,71 @@
+
+body{
+    margin-top: 60px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+button{
+    all: unset;
+    height: 3rem;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(238, 102, 52);
+    color: black;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+
+}
+div{
+    width: 75%;
+
+    margin: 0 auto;
+    background-color: rgb(0.1, 0.2, 0.6);
+    color: darkgreen;
+    border-radius: 10px;
+}
+
+.imag{
+
+    margin-top: 60px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+input{
+    
+    all: unset;
+    height: 3rem;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: rebeccapurple;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: larger;
+    margin: 0;
+    padding: 10px;
+
+}
+.title{
+    width: 55%;
+}
+.year{
+    width : 25%
+}
+@media(max-width : 100px){
+    .title{
+        width: 100%;
+    }
+    .year{
+        width: 75%;
+    }
+}
+
+
